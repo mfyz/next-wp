@@ -10,8 +10,14 @@ const Header = () => {
 				<li className={(router.pathname == '/' ? 'active' : '')}>
 					<Link href="/"><span>Home</span></Link>
 				</li>
-				<li className={(router.pathname == '/cities' ? 'active' : '')}>
-					<Link href="/cities"><span>Cities</span></Link>
+				<li className={(router.pathname == '/pages' ? 'active' : '')}>
+					<Link href="/pages"><span>Pages</span></Link>
+				</li>
+				<li className={(router.pathname == '/posts' ? 'active' : '')}>
+					<Link href="/posts"><span>Posts (Blog)</span></Link>
+				</li>
+				<li className={(router.pathname == '/books' ? 'active' : '')}>
+					<Link href="/books"><span>Books</span></Link>
 				</li>
 			</ul>
 		</div>

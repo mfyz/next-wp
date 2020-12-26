@@ -1,0 +1,1 @@
+export const WP_API_BASE = 'https://wp-headless-test.nomadic.page/wp-json/wp/v2';

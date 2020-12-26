@@ -1,8 +1,12 @@
-import timeReducer from './time'
+import pageReducer from './pages'
+import postReducer from './posts'
+import bookReducer from './books'
 import { combineReducers } from 'redux'
 
 const rootReducer = combineReducers({
-    time: timeReducer
+	page: pageReducer,
+	post: postReducer,
+	book: bookReducer
 })
 
 export default rootReducer
