@@ -1,4 +1,4 @@
-## Next.js redux example - with SSR example
+## Headless WP with Next.js
 
 ### Run Dev
 
@@ -13,4 +13,4 @@ Build will generate all SSR rendered pages in the build and will serve the stati
 
 ## Example
 
-https://next-redux-with-ssr-example.vercel.app/
+Demo: https://next-wp-self.vercel.app/
